@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro{
+    background-color: #1b1b1b ;
+    max-width: 800px;
+ margin: 16px auto;
+height: 50vh;
+ color: #fff;
+ padding: 2rem;
+ text-align: center;
+ 
+}
+.intro h1{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.intro h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.intro p{
+    font-size: 1.1rem;
+    color: #ccc;
+}
+.portfolio-photoo{
+    /* width: 200px; */
+}
+  
