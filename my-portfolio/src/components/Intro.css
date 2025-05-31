@@ -3,54 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+     box-shadow:  0 1px 2px 0 rgba(88, 99, 33, 0.2);
+}
 .intro{
-    background-color: #1b1b1b ;
-    max-width: 850px;
- margin: 16px auto;
+    /* background-color: #1b1b1b ; */
+    /* max-width: 850px; */
+ /* margin: 16px auto; */
 /* height: 70vh; */
- color: #fff;
+ color: #000;
  padding: 2rem;
- text-align: center;
- box-shadow:  0 1px 2px 0 rgba(88, 99, 33, 0.2);
+
+ 
+
+ /* box-shadow:  0 1px 2px 0 rgba(88, 99, 33, 0.2); */
 
  
 }
 .intro h1{
     font-size: 3rem;
     margin-bottom: 0.5rem;
-    color: beige;
+
 }
 .intro h2{
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
 .intro p{
-    font-size: 1.1rem;
-    color: #ccc;
+    font-size: 22px;
+    line-height: 1.5;
+   opacity: 0.7;
 }
 .me{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   gap: 30px;
-   margin-bottom: 12px;
+    
 }
-.me button{
-    padding: 8px 14px;
-    font-size: 20px;
-    background-color: beige;
+.intro button{
+    padding: 8px 16px;
+    font-size: 21px;
+    background-color:#e4721c;
     border: none;
     border-radius: 4px;
     margin-right: 20px;
+    color: aliceblue;
 
 }
 
 .my-image{
-    width: 150px;
-    height: 150px;
+  width: 200px;
+  height: 200px;
     border-radius: 50%;
-   border: 4px dotted beige;
+    border: 3px solid #e4721c;
+    margin-top: 50px;
+   
 }
   
