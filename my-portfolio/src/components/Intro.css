@@ -5,12 +5,14 @@
 }
 .intro{
     background-color: #1b1b1b ;
-    max-width: 800px;
+    max-width: 850px;
  margin: 16px auto;
-height: 50vh;
+/* height: 70vh; */
  color: #fff;
  padding: 2rem;
  text-align: center;
+ box-shadow:  0 1px 2px 0 rgba(88, 99, 33, 0.2);
+
  
 }
 .intro h1{
@@ -27,7 +29,27 @@ height: 50vh;
     font-size: 1.1rem;
     color: #ccc;
 }
-.portfolio-photoo{
-    /* width: 200px; */
+.me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 30px;
+   margin-bottom: 12px;
+}
+.me button{
+    padding: 8px 14px;
+    font-size: 20px;
+    background-color: beige;
+    border: none;
+    border-radius: 4px;
+    margin-right: 20px;
+
+}
+
+.my-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   border: 4px dotted beige;
 }
   
