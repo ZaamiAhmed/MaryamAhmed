@@ -43,7 +43,7 @@ section{
     
 }
 .intro button{
-    padding: 8px 16px;
+    padding: 8px 14px;
     font-size: 21px;
     background-color:#e4721c;
     border: none;
@@ -62,3 +62,12 @@ section{
    
 }
   
+.social-icons{
+  
+}
+.social-icons a{
+    color: #e4721c;
+    font-size: 30px;
+    padding: 8px;
+   
+}

@@ -1,5 +1,8 @@
 import './Intro.css';
 import image from '../images/mary.png';
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
+
 import { motion } from "framer-motion";
 export default function Intro() {
     return (
@@ -19,7 +22,30 @@ export default function Intro() {
             A passionate Front-End Developer crafting user-friendly web
             experiences.
           </p>
-          <button>About Me!</button>
+          <a
+            href="https://drive.google.com/file/d/1eyFfqm5RiuosaVNVIA-qtJxCIP-wKmBJ/view?usp=sharing"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>My Resume</button>
+          </a>
+          <div className="social-icons">
+            <a
+              href="https://www.linkedin.com/in/milga-ahmed/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/ZaamiAhmed?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
+          </div>
         </div>
         <div className="me">
           <motion.img
