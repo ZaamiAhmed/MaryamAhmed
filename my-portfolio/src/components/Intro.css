@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.heading-container{
+    max-width: 1200px;
+}
 section{
     display: flex;
     justify-content: space-evenly;
@@ -84,14 +87,10 @@ section{
     }
     .intro p{
         font-size: 20px;
-        line-height: 1.5;
+        line-height: 1.6;
     }
     .social-icons a{
         padding: 5px;
-        font-size: 33px;
+        font-size: 32px;
     }
-    .my-image{
-    margin: 10px;
-    }
-    
 }

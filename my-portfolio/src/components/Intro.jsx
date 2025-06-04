@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 export default function Intro() {
     return (
-      <section className="heading container">
+      <section className="heading-container">
         <div className="intro">
           <h1>
             Hello{" "}
@@ -57,6 +57,7 @@ export default function Intro() {
             transition={{ duration: 1, delay: 0.3 }}
           />
         </div>
+        
       </section>
     );
 }
