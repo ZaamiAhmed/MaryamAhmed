@@ -1,20 +1,19 @@
 .navbar-container{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+ width: 100%;
+  background-color: #fff;
+  padding: 10px 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .navbar{
   display: flex;
- align-items: center;
- padding: 20px 0;
- gap: 40px;
+ 
 }
 .navlinks ul {
   display: flex;
-  gap: 30px;
   list-style: none;
-  margin: 0;
+  gap: 20px;
   padding: 0;
+  margin: 0;
   
 }
 .navlinks li{
@@ -27,6 +26,24 @@ cursor: pointer;
   background-color: #e4721c;
 }
 .navbar img{
-  width: 200px;
-  height: auto;
+  width: 150px;
+}
+
+.nav-menu{
+  display: none;
+}
+@media (max-width:768px) {
+  .nav-menu{
+    display: block;
+   
+  }
+  .navlinks{
+     display: none;
+   
+  }
+  .show{
+    display: flex;
+   
+  }
+  
 }
