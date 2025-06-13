@@ -1,4 +1,5 @@
 import './Intro.css';
+import Skills from './Skills';
 import image from '../images/mary.png';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
@@ -6,6 +7,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 export default function Intro() {
     return (
+      <>
       <section className="heading-container">
         <div className="intro">
           <h1>
@@ -55,9 +57,13 @@ export default function Intro() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
+      
           />
+          
         </div>
         
       </section>
+      <Skills/>
+     </>
     );
 }

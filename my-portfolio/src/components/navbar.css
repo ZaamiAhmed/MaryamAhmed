@@ -27,7 +27,7 @@ cursor: pointer;
   background-color: #e4721c;
 }
 .navbar img{
-  width: 150px;
+  width: 200px;
 }
 
 .nav-menu{
@@ -41,8 +41,11 @@ cursor: pointer;
 @media (max-width:580px) {
   .nav-menu{
     display: block;
-   
+    font-size: 22px;
+    color: #e4721c;
+  
   }
+
   .navlinks{
      display: none;
      align-items: center;
@@ -56,6 +59,12 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
    
+  }
+  .links{
+    font-size: 18px;
+  }
+  .navbar img{
+    width: 170px;
   }
   
 }
