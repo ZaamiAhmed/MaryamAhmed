@@ -10,12 +10,14 @@
   return (
     <div className="App">
       <Navbar />
+      <div className="navbar-route">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects/>} />
       </Routes>
-      <Intro />
+      </div>
+       <Intro />
     </div>
   );
   

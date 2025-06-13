@@ -2,6 +2,7 @@ import './navbar.css';
 import logo from '../images/maryama.png';
 import {FaBars,FaTimes} from 'react-icons/fa';
 import React,{ useState } from 'react';
+import { Link } from 'react-router-dom';
 export default function Navbar() {
 
   const[menuvisible,setMenuvisible]=useState(false);
@@ -18,11 +19,12 @@ export default function Navbar() {
         </div>
         <nav className={`navlinks ${menuvisible? 'show':"" }`}>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
-            <li>Contact</li>
+           <Link to='/' className='links'><li>Home</li></Link> 
+            <Link to='/about' className='links'><li>About</li></Link>
+            <Link to='/projects' className='links'><li>Projects</li></Link>
+           <Link to='/contact' className='links'><li>Contact</li></Link> 
+           
+           
           </ul>
         </nav>
       </div>

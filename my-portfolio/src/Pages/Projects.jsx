@@ -1,6 +1,8 @@
 export default function Projects() {
   return(
-    <div>This is my projects page.</div>
+    <div>
+      <h2>My Recent Projects</h2>
+      </div>
   )
  
 }
