@@ -45,15 +45,16 @@ cursor: pointer;
   }
   .navlinks{
      display: none;
-     flex-direction: column;
-      background-color: #fff;
-  padding: 10px;
- justify-content: center;
- align-items: center;
-
+     align-items: center;
+     justify-content: center;
+     padding: 1rem;
+     
   }
+ 
   .show{
     display: flex;
+    justify-content: center;
+    align-items: center;
    
   }
   

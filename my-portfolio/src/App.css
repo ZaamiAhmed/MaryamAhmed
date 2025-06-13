@@ -1,7 +1,10 @@
 .App {
 
 }
-.navbar-route{
-    margin-bottom: 0;
+.centered-page h2{
+    text-align: center;
+
+}
+.centered-page p{
     text-align: center;
 }
