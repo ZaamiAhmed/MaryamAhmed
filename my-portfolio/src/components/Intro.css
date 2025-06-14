@@ -9,7 +9,7 @@
 section{
     display: flex;
     justify-content: space-evenly;
-    padding: 1rem;
+    /* padding: 1rem; */
      box-shadow:  0 1px 2px 0 rgba(88, 99, 33, 0.2);
 }
 .intro{
