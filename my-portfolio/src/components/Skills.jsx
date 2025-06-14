@@ -6,7 +6,10 @@ export default function Skills() {
         <div className="skills-container">
   <div className="skills-content">
     <h2>My Skills</h2>
-    <BsDashLg size={30} className="simple-line"/>
+     <BsDashLg size={30}  className="simple-line"/>
+    {/* <div className="simple-line">
+       
+        </div> */}
     <p>
       Skilled in front-end development with React, HTML, CSS, and JavaScript — 
       I build responsive, user-focused web apps with clean, efficient code.
