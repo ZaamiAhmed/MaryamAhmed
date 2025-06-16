@@ -71,10 +71,39 @@ export default function Skills() {
             <h4>These are my Soft Skills:</h4>
             <ul>
               <li>problem-solver</li>
-              <li>Resilien</li>
+              <li>Resilient</li>
               <li>Adaptable</li>
               <li>detail-oriented</li>
             </ul>
+          </div>
+        </div>
+        <div className="qualifications">
+          <div className="qualifications-intro">
+            <h2>Qualifications & Achievements</h2>
+            <p>
+              My journey has been shaped by persistence and self-driven
+              learning. Here are the milestones that have defined my path:
+            </p>
+          </div>
+          <div className="certificate-grid">
+            <div className="certificate-card" style={{ "--i": 1 }}>
+              <h4>Associate's Degree</h4>
+              <p>Computer Science, University of the People</p>
+            </div>
+            <div className="certificate-card" style={{ "--i": 2 }}>
+              <h4>Front-End Diploma</h4>
+              <p>SheCodes – Projects in React, APIs & Responsive Design</p>
+            </div>
+            <div className="certificate-card" style={{ "--1": 3 }}>
+              <h4>WordPress Skills Certificate</h4>
+              <p>
+                Designed & launched WordPress sites for personal and client use
+              </p>
+            </div>
+            <div className="certificate-card" style={{ "--i": 4 }}>
+              <h4>UX Design (Ongoing)</h4>
+              <p>Coursera – Google UX Design Program (in progress)</p>
+            </div>
           </div>
         </div>
       </div>

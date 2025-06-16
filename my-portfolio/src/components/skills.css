@@ -118,6 +118,72 @@ background-color: #000;
   margin-bottom: 8px;
   color: #444;
 }
+
+.qualifications{
+  padding: 2rem;
+  /* text-align: center; */
+  max-width: 1000px;
+  margin: auto;
+}
+.qualifications-intro{
+  /* padding-left: 30px; */
+
+}
+.qualifications-intro h2{
+  font-size: 28px;
+  margin-bottom: 10px;
+
+}
+.qualifications-intro p{
+  line-height: 1.5;
+  font-size: 18px;
+  margin-bottom: 1rem;
+
+}
+.certificate-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  
+}
+.certificate-card {
+  background-color: #fff;
+  border-left: 4px solid #e4721c;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  /* transition: transform 0.2s ease; */
+  padding: 1rem;
+  animation: popIn 0.6s ease-out forwards;
+  animation-delay: calc(var(--i) * 0.2s);
+  /* opacity: 0;  */
+  transform: scale(0.8); 
+  
+}
+.certificate-card h4{
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #222;
+}
+.certificate-card p{
+  font-size: 16px;
+  color: #333;
+}
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+  
+
 @media (max-width:980px) {
     .skills-card{
         display: grid;
@@ -173,10 +239,32 @@ background-color: #000;
   .seperate-line {
     display: none;
   }
+  .qualifications{
+    max-width: 700px;
+    padding: 1rem;
+  }
+  .certificate-grid{
+
+  }
+  .certificate-card h4{
+    font-size: 18px;
+  }
+  .certificate-card p{
+    line-height: 2;
+    font-size: 17px;
+  }
+}
+@media (max-width:698px) {
+  .certificate-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  
 }
 @media (max-width:460px) {
-  .soft-skill h2{
-    font-size: 21px;
+  .soft-skills h2{
+    font-size: 24px;
    
   }
   .soft-skills p{
@@ -185,5 +273,45 @@ background-color: #000;
     max-width: 550px;
   }
   
+  
 }
+@media (max-width:512px) {
+
+  .qualifications .qualifications-intro h2 {
+    font-size: 18px;
+  }
+  
+}
+  @media (max-width:400px) {
+    .soft-skills h2{
+      font-size: 18px;
+    }
+    .soft-skills p{
+      /* max-width: 900px; */
+    }
+    .qualifications .qualifications-intro h2{
+      font-size: 16px;
+
+    }
+    .qualifications .qualifications-intro p{
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    
+  }
+  @media (max-width:890px) {
+    .qualifications-intro h2{
+      font-size: 26px;
+    }
+    .qualifications-intro p{
+
+    }
+   
+   .certificate-card h4{
+    font-size: 17px;
+   }
+   .certificate-card p{
+    font-size: 14px;
+   }
+  }
 
