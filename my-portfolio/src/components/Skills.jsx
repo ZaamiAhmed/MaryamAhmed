@@ -106,6 +106,13 @@ export default function Skills() {
             </div>
           </div>
         </div>
+        <a
+          href="./about"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <button>Know Me More!</button>
+        </a>
       </div>
     );
     
