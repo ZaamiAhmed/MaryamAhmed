@@ -8,3 +8,51 @@
 .centered-page p{
     text-align: center;
 }
+footer{
+    background-color: #ededed;
+    padding: 1rem;
+    text-align: center;
+}
+footer p{
+    color: #000;
+  line-height: 1.6;
+  font-size: 21px;
+}
+footer p strong{
+    color: #e4721c;
+    font-weight: 400;
+}
+footer a{
+    text-decoration: none;
+    color: #444;
+}
+footer a:hover{
+  color: #e4721c;
+}
+/* Media Queries */
+@media (max-width: 720px) {
+    footer p {
+      font-size: 15px;
+      line-height: 1.4;
+    }
+  }
+  
+  @media (max-width: 549px) {
+    footer p {
+      font-size: 13px;
+   line-height: 1.2;
+    }
+}
+@media (max-width: 479px) {
+    footer p {
+   font-size: 10px;
+   line-height: 1.1;
+    }
+}
+@media (max-width: 376px) {
+    footer p {
+      font-size: 8px;
+   line-height: 1;
+    }
+}
+ 

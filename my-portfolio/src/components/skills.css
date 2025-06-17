@@ -296,6 +296,12 @@ background-color: #000;
   .qualifications .qualifications-intro h2 {
     font-size: 18px;
   }
+  .me button{
+    font-size: 21px;
+    padding: 9px 12px;
+    margin: 14px auto;
+
+  }
   
 }
   @media (max-width:400px) {
@@ -312,6 +318,12 @@ background-color: #000;
     .qualifications .qualifications-intro p{
       font-size: 15px;
       line-height: 1.5;
+    }
+    .me button{
+      padding: 8px 10px;
+      font-size: 18px;
+      border-radius: 4px;
+      margin: 10px auto;
     }
     
   }
@@ -330,4 +342,5 @@ background-color: #000;
     font-size: 14px;
    }
   }
+  
 
