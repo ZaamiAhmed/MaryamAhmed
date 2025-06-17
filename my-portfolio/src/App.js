@@ -5,6 +5,7 @@
  import About from './Pages/About';
  import Projects from "./Pages/Projects";
  import Contact from "./Pages/Contact";
+ import{MdEmail} from 'react-icons/md';
 
  import './App.css';
  export default function App() {
@@ -21,10 +22,10 @@
       <footer>
         <p>
           @Copyright {new Date().getFullYear()} <strong>Maryan Ahmed </strong>
-          | Contact:
+          |Contact:
           <a href="mailto:mohamedmaryam805@gmail.com">
             {" "}
-            mohamedmaryam805@gmail.com
+           <MdEmail size={28}/>
           </a>
         </p>
       </footer>

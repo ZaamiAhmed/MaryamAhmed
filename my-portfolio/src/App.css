@@ -20,20 +20,21 @@ footer p{
 }
 footer p strong{
     color: #e4721c;
-    font-weight: 400;
+    font-weight: 500;
 }
 footer a{
     text-decoration: none;
     color: #e4721c;
 }
-footer a:hover{
-    color: #000;
- 
-}
-/* Media Queries */
+a:hover svg {
+    color: #444; 
+    transform: scale(1.1);
+    transition: 0.3s ease;
+  }
+
 @media (max-width: 720px) {
     footer p {
-      font-size: 15px;
+      font-size: 21px;
     
     
     }
@@ -41,20 +42,23 @@ footer a:hover{
   
   @media (max-width: 549px) {
     footer p {
-      font-size: 13px;
+      font-size: 20px;
  
     }
 }
-@media (max-width: 479px) {
+@media (max-width: 452px) {
     footer p {
-   font-size: 10px;
+   font-size: 17px;
    /* padding-right: 10px; */
   
     }
+    a svg{
+        font-size: 20px;
+    }
 }
-@media (max-width: 376px) {
+@media (max-width: 390px) {
     footer p {
-      font-size: 8px;
+      font-size: 14px;
   
     }
 }
