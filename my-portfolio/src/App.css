@@ -1,10 +1,10 @@
 .App {
 
 }
-.centered-page h2{
+/* .centered-page h2{
     text-align: center;
 
-}
+} */
 .centered-page p{
     text-align: center;
 }
@@ -24,10 +24,11 @@ footer p strong{
 }
 footer a{
     text-decoration: none;
-    color: #444;
+    color: #e4721c;
 }
 footer a:hover{
-  color: #e4721c;
+    color: #000;
+ 
 }
 /* Media Queries */
 @media (max-width: 720px) {
@@ -58,3 +59,74 @@ footer a:hover{
     }
 }
  
+.centered-page .about-me {
+    padding: 1.5rem;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 900px;
+  }
+.centered-page h2{
+    color: #e4721c;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 27px;
+font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.centered-page p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.9;
+    padding: 12px;
+   opacity: 0.8;
+   font-family: 'Times New Roman', Times, serif;
+}
+.centered-page ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 2rem;
+}
+.centered-page ul li{
+    font-size: 17px;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+  padding-left: 1.5rem;
+  position: relative;
+ font-family: 'Times New Roman', Times, serif;
+
+}
+
+.centered-page ul li::before{
+    content: "✅";
+    color: #e4721c;
+    position: absolute;
+    left: 0;
+}
+  @media (max-width:530px) {
+    .centered-page .about-me{
+        padding: 1rem;
+        margin: 10px auto;
+      
+    }
+   .centered-page h2{
+    font-size: 21px;
+   }
+   .centered-page p{
+    font-size: 16px;
+    line-height: 1.8;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* padding: 5px; */
+   }
+    
+  }
+  @media (max-width:400px) {
+    .centered-page p{
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    
+  }
+  

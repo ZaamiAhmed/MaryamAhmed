@@ -21,7 +21,7 @@
       <footer>
         <p>
           @Copyright {new Date().getFullYear()} <strong>Maryan Ahmed </strong>
-          |Contact:
+          | Contact:
           <a href="mailto:mohamedmaryam805@gmail.com">
             {" "}
             mohamedmaryam805@gmail.com
