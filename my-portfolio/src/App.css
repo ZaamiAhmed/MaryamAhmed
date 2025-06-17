@@ -15,7 +15,7 @@ footer{
 }
 footer p{
     color: #000;
-  line-height: 1.6;
+  /* line-height: 1.6; */
   font-size: 21px;
 }
 footer p strong{
@@ -33,26 +33,28 @@ footer a:hover{
 @media (max-width: 720px) {
     footer p {
       font-size: 15px;
-      line-height: 1.4;
+    
+    
     }
   }
   
   @media (max-width: 549px) {
     footer p {
       font-size: 13px;
-   line-height: 1.2;
+ 
     }
 }
 @media (max-width: 479px) {
     footer p {
-   font-size: 12px;
-   line-height: 1.1;
+   font-size: 10px;
+   /* padding-right: 10px; */
+  
     }
 }
 @media (max-width: 376px) {
     footer p {
       font-size: 8px;
-   line-height: 1;
+  
     }
 }
  
