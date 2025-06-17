@@ -1,6 +1,7 @@
 import './skills.css';
 import {FaReact,FaHtml5,FaCss3Alt,FaJsSquare,FaGithub} from 'react-icons/fa';
 import {BsDashLg }from 'react-icons/bs'
+import {Link} from 'react-router-dom';
 export default function Skills() {
     return (
       <div className="skills-container">
@@ -106,13 +107,11 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <a
-          href="./about"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <button>Know Me More!</button>
-        </a>
+        <div className='me' >
+          <Link to="/about">
+          <button >Know Me More!</button>
+          </Link>
+        </div>
       </div>
     );
     

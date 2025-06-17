@@ -183,17 +183,20 @@ background-color: #000;
     transform: scale(1);
   }
 }
- button{
-  padding: 8px 14px;
-  font-size: 21px;
-  background-color:#e4721c;
-  border: none;
-  border-radius: 4px;
-  /* margin-right: 20px; */
-  color: aliceblue;
- 
+ .me button{
+ display: block;
+ margin: 20px auto;
+ background-color: #e4721c;
+ color: #fff;
+ padding: 10px 15px;
+ border-radius: 5px;
+ border: none;
+ font-size: 24px;
 
-}
+ }
+.me a{
+  text-decoration: none;
+ }
 
   
 
