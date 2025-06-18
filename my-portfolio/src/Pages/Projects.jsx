@@ -19,8 +19,17 @@ export default function Projects() {
             <strong>Tools:</strong> HTML, CSS, JS, Moment.js
           </p>
           <div className="project-links">
-            <a href="https://world-clock-momentjs-project.netlify.app/">Live</a>
-            <a href="https://github.com/yourgithub/world-clock">Code</a>
+            <a
+              href="https://world-clock-momentjs-project.netlify.app/"
+              rel="noreferrer">
+              Live
+            </a>
+            <a
+              href="https://github.com/yourgithub/world-clock"
+              rel="noreferrer"
+            >
+              Code
+            </a>
           </div>
         </div>
 
@@ -33,8 +42,12 @@ export default function Projects() {
             <strong>Tools:</strong> JavaScript, API
           </p>
           <div className="project-links">
-            <a href="#">Live</a>
-            <a href="#">Code</a>
+            <a href="#" rel="noreferrer">
+              Live
+            </a>
+            <a href="#" rel="noreferrer">
+              Code
+            </a>
           </div>
         </div>
 
@@ -47,8 +60,18 @@ export default function Projects() {
             <strong>Tools:</strong> HTML, CSS, JS, Moment.js
           </p>
           <div className="project-links">
-            <a href="https://world-clock-momentjs-project.netlify.app/">Live</a>
-            <a href="https://github.com/yourgithub/world-clock">Code</a>
+            <a
+              href="https://world-clock-momentjs-project.netlify.app/"
+              rel="noreferrer"
+            >
+              Live
+            </a>
+            <a
+              href="https://github.com/yourgithub/world-clock"
+              rel="noreferrer"
+            >
+              Code
+            </a>
           </div>
         </div>
       </div>
