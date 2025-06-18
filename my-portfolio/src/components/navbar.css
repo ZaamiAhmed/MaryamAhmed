@@ -1,11 +1,16 @@
 .navbar-container{
- width: 100%;
-  background-color: #fff;
-  padding: 10px 30px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ /* width: 100%; */
+padding: 5px 12px;
+  position: sticky;
+  top: 0;
+  z-index: 10; 
+  background-color: #fff; 
+  /* padding: 0.7rem; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 .navbar{
   display: flex;
+
  
 }
 .navlinks ul {
@@ -14,17 +19,23 @@
   gap: 20px;
   padding: 0;
   margin: 0;
+
   
+}
+.navlinks a{
+  font-size: 25px;
 }
 
 .navlinks li{
-  /* font-size: 24px; */
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 transition: color 0.3s ease;
 cursor: pointer;
 }
-.navlinks li:hover{
+.navlinks a:hover{
   background-color: #e4721c;
+}
+.links.active{
+  background-color: #e4721c;
+  color: #fff;
 }
 .navbar img{
   width: 200px;
@@ -38,12 +49,16 @@ cursor: pointer;
   color: #333;
     font-size: 24px;
 }
+
 @media (max-width:580px) {
   .nav-menu{
     display: block;
     font-size: 22px;
     color: #e4721c;
   
+  }
+  .navlinks a{
+    font-size: 21px;
   }
 
   .navlinks{
