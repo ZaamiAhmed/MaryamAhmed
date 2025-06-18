@@ -28,6 +28,7 @@ export default function Intro() {
             href="https://drive.google.com/file/d/1eyFfqm5RiuosaVNVIA-qtJxCIP-wKmBJ/view?usp=sharing"
             download
             target="_blank"
+            rel='noreferrer'
              
           >
             <button>My Resume</button>

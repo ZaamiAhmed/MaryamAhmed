@@ -21,11 +21,12 @@ export default function Projects() {
           <div className="project-links">
             <a
               href="https://world-clock-momentjs-project.netlify.app/"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               Live
             </a>
             <a
-              href="https://github.com/yourgithub/world-clock"
+              href="https://github.com/ZaamiAhmed/World-clock"
               rel="noreferrer"
             >
               Code
@@ -42,10 +43,10 @@ export default function Projects() {
             <strong>Tools:</strong> JavaScript, API
           </p>
           <div className="project-links">
-            <a href="#" rel="noreferrer">
+            <a href="https://somali-poems.netlify.app/" rel="noreferrer">
               Live
             </a>
-            <a href="#" rel="noreferrer">
+            <a href="https://github.com/ZaamiAhmed/shecodesAI" target='_blank' rel="noreferrer">
               Code
             </a>
           </div>
