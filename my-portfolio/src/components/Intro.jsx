@@ -1,6 +1,7 @@
 import './Intro.css';
 import Skills from './Skills';
-import image from '../images/mary.png';
+// import image from '../images/mary.png';
+import avatar from '../images/avatar.png';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 
@@ -52,7 +53,7 @@ export default function Intro() {
         </div>
         <div className="me">
           <motion.img
-            src={image}
+            src={avatar}
             alt="Maryama Ahmed"
             className="my-image"
             initial={{ opacity: 0, y: 50 }}
