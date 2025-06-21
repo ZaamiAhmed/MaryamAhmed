@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-      <div className="centered-page">
+      <div className="contact-page">
         <h2>Contact Me:</h2>
         <form action="https://formspree.io/f/xnnvzegr" method="post">
           <input

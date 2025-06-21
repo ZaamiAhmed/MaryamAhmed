@@ -116,6 +116,7 @@ font-family: 'Courier New', Courier, monospace;
     }
    .centered-page h2{
     font-size: 24px;
+    
    }
    .centered-page p{
     font-size: 16px;
@@ -268,10 +269,18 @@ font-family: 'Courier New', Courier, monospace;
     
   }
 
+
   /* contact page style */
+  .contact-page h2{
+    color: #e4721c;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+  }
   form{
     max-width: 600px;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 2rem;
     background: #fff;
     border-radius: 12px;
