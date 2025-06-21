@@ -86,7 +86,7 @@ section{
         font-weight: 400;
     }
     .intro p{
-        font-size: 19px;
+        font-size: 20px;
         line-height: 1.8;
     }
     .social-icons a{
@@ -99,7 +99,7 @@ section{
 }
 @media (max-width:452px) {
     .intro p{
-        font-size: 17px;
+        font-size: 19px;
         line-height: 1.6;
     }
     .social-icons .icons{
