@@ -3,16 +3,15 @@ import Skills from './Skills';
 // import image from '../images/mary.png';
 import avatar from '../images/avatar.png';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-
-
 import { motion } from "framer-motion";
+
 export default function Intro() {
     return (
       <>
       <section className="heading-container">
         <div className="intro">
           <h1>
-            Hello{" "}
+            Hello
             <span role="img" aria-label="wave">
               👋
             </span>
@@ -40,14 +39,14 @@ export default function Intro() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin />
+              <FaLinkedin className='icons' />
             </a>
             <a
               href="https://github.com/ZaamiAhmed?tab=repositories"
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub />
+              <FaGithub className='icons' />
             </a>
           </div>
         </div>

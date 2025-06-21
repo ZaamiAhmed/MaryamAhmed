@@ -33,9 +33,9 @@ section{
 }
 
 .intro p{
-    font-size: 22px;
-    line-height: 1.5;
-   opacity: 0.7;
+    font-size: 23px;
+    line-height: 1.8;
+   font-family: 'Times New Roman', Times, serif;
 }
 
 .intro button{
@@ -63,7 +63,7 @@ section{
 }
 .social-icons a{
     color: #e4721c;
-    font-size: 30px;
+    font-size: 40px;
     padding: 8px;
    
 }
@@ -86,11 +86,28 @@ section{
         font-weight: 400;
     }
     .intro p{
-        font-size: 20px;
-        line-height: 1.6;
+        font-size: 19px;
+        line-height: 1.8;
     }
     .social-icons a{
         padding: 5px;
-        font-size: 32px;
+        font-size: 36px;
     }
+    .my-image{
+        margin-top: 30px;
+    }
+}
+@media (max-width:452px) {
+    .intro p{
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    .social-icons .icons{
+        font-size: 35px;
+    }
+    .my-image{
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
+    
 }
